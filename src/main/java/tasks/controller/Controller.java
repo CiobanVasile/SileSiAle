@@ -54,7 +54,7 @@ public class Controller {
     @FXML
     private TextField fieldTimeTo;
 
-    public void setService(TasksService service){
+    public void setService( TasksService service ){
         this.service=service;
         this.dateService=new DateService(service);
         this.tasksList=service.getObservableList();
@@ -89,14 +89,14 @@ public class Controller {
             editNewStage = new Stage();
             NewEditController.setCurrentStage(editNewStage);
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/new-edit-task.fxml"));
-            Parent root = loader.load();//getClass().getResource("/fxml/new-edit-task.fxml"));
+            Parent root = loader.load();
             NewEditController editCtrl = loader.getController();
             editCtrl.setService(service);
             editCtrl.setTasksList(tasksList);
             editCtrl.setCurrentTask((Task)mainTable.getSelectionModel().getSelectedItem());
             editNewStage.setScene(new Scene(root, 600, 350));
             editNewStage.setResizable(false);
-            editNewStage.initOwner(Main.primaryStage);
+            editNewStage.initOwner( Main.getPrimaryStage( ) );
             editNewStage.initModality(Modality.APPLICATION_MODAL);//??????
             editNewStage.show();
         }
