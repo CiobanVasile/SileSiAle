@@ -1,0 +1,554 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec Proiect232</title>
+<link type="text/css" rel="stylesheet" href="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width= height= src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Proiect232</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 25/03/2025</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.crir3298_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc23842">Prj232-6: ECP_TestValid</a></p><p style="padding-left: 45px;"><a href="#toc_tc23844">Prj232-7: ECP_TestInvalid</a></p><p style="padding-left: 45px;"><a href="#toc_tc23846">Prj232-8: BVA_TestValid</a></p><p style="padding-left: 45px;"><a href="#toc_tc23848">Prj232-9: BVA_TestInvalid</a></p><br/><p style="padding-left: 20px;"><b><a href="#toc_2">2.ctir3314_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc23783">Prj232-2: EcpValidTestCase</a></p><p style="padding-left: 45px;"><a href="#toc_tc23786">Prj232-3: EcpInvalidTestCase</a></p><p style="padding-left: 45px;"><a href="#toc_tc23788">Prj232-4: BvaValidTestCase</a></p><p style="padding-left: 45px;"><a href="#toc_tc23790">Prj232-5: BvaInvalidTestCase</a></p><br/><p style="padding-left: 20px;"><b><a href="#toc_3">3.cvir3308_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc23877">Prj232-10: ECP_TestValid</a></p><p style="padding-left: 45px;"><a href="#toc_tc23879">Prj232-11: ECP_TestInvalid</a></p><p style="padding-left: 45px;"><a href="#toc_tc23881">Prj232-12: BVA_TestValid</a></p><p style="padding-left: 45px;"><a href="#toc_tc23883">Prj232-13: BVA_TestInvalid</a></p><br/><p style="padding-left: 20px;"><b><a href="#toc_4">4.cair3311_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc23909">Prj232-14: ECP_TestValid</a></p><p style="padding-left: 45px;"><a href="#toc_tc23937">Prj232-23: ECP_TestInvalid</a></p><p style="padding-left: 45px;"><a href="#toc_tc23939">Prj232-24: BVA_TestValid</a></p><p style="padding-left: 45px;"><a href="#toc_tc23941">Prj232-25: BVA_TestInvalid</a></p><br/><p style="padding-left: 20px;"><b><a href="#toc_5">5.cgir3317_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc23915">Prj232-15: ECP-Valid_Test_Case</a></p><p style="padding-left: 45px;"><a href="#toc_tc23920">Prj232-16: ECP-Invalid_Test_Case</a></p><p style="padding-left: 45px;"><a href="#toc_tc23925">Prj232-18: BVA-Valid_Test_Case</a></p><p style="padding-left: 45px;"><a href="#toc_tc23930">Prj232-20: BVA-Invalid_Test_Case</a></p><br/><p style="padding-left: 20px;"><b><a href="#toc_6">6.ceir3320_BBT</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc23923">Prj232-17: ECP_ValidTest</a></p><p style="padding-left: 45px;"><a href="#toc_tc23928">Prj232-19: ECP_InvalidTest</a></p><p style="padding-left: 45px;"><a href="#toc_tc23933">Prj232-21: BVA_ValidTest</a></p><p style="padding-left: 45px;"><a href="#toc_tc23935">Prj232-22: BVA_InvalidTest</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>Proiect de testare pentru studentii din grupa 232.</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : crir3298_BBT</h1>
+<div><p><em><u><strong>None</strong></u></em></p>
+</div><a name="toc_tc23842"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-6: ECP_TestValid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">crir3298</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga un test valid cu parametrii: titlu -&gt; &quot;Test Task&quot;, start -&gt;&nbsp;10000, end -&gt; 10000, interval -&gt; 0.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Datele de input sunt NOT NULL.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >ArrayTaskListTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addValidTask</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23844"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-7: ECP_TestInvalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">crir3298</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga un task <u><em><strong>null</strong></em></u>.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >ArrayTaskListTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addNullTask</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23846"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-8: BVA_TestValid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">crir3298</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga un task valid astfel incat sa nu fie depasita capacitatea maxima.</p>
+
+<p>titlu -&gt; &quot;Test Task&quot;, start -&gt;&nbsp;10000, end -&gt; 10000, interval -&gt; 1.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >ArrayTaskListTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addTaskAtInitialCapacity</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23848"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-9: BVA_TestInvalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">crir3298</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga un task astfel incat sa fie depasita capacitatea maxima.</p>
+
+<p>titlu -&gt; &quot;Test Task&quot;, start -&gt;&nbsp;10000, end -&gt; 10000, interval -&gt; 1.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >ArrayTaskListTest</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addTaskExceedingInitialCapacity</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name='toc_2'></a>
+<h1 class='doclevel'>2.Test Suite : ctir3314_BBT</h1>
+<div><p>Testarea functionalitatii de creare Task</p>
+</div><a name="toc_tc23783"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-2: EcpValidTestCase&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">coir3315</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga un task in care data de start este mai mare decat 1 ianuarie 1970</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1. startDate &gt; 1970-01-01<br />
+2. restul campurilor sunt valide</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Insert a task having the following params:<br />
+<br />
+title: &quot;TestTask&quot;<br />
+startDate:&nbsp;2003-10-21<br />
+endDate: 2022-10-10<br />
+interval: 5</p>
+</td><td><p>The task is sucesfully added to the list</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23786"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-3: EcpInvalidTestCase&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">coir3315</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga un task in care data de start este mai mica decat 1 ianuarie 1970</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1. startDate &lt;&nbsp;1970-01-01</p>
+
+<p>2. restul campurilor sunt valide</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Insert a task having the following params:<br />
+<br />
+title: &quot;TestTask&quot;<br />
+startDate:&nbsp;1968-10-21<br />
+endDate: 2022-10-10<br />
+interval: 5</p>
+</td><td><p>An error is thrown</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23788"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-4: BvaValidTestCase&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">coir3315</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga un task in care intervalul este fix 1</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1. interval == 1<br />
+2. restul campurilor sunt valide</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Insert a task having the following params:<br />
+<br />
+title: &quot;TestTask&quot;<br />
+startDate:&nbsp;2003-10-21<br />
+endDate: 2022-10-10<br />
+interval: 1</p>
+</td><td><p>The task is sucesfully added to the list</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23790"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-5: BvaInvalidTestCase&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">coir3315</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga un task in care intervalul este &lt; 1</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1. interval &lt; 1<br />
+2. restul campurilor sunt valide</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Insert a task having the following params:<br />
+<br />
+title: &quot;TestTask&quot;<br />
+startDate:&nbsp;2003-10-21<br />
+endDate: 2022-10-10<br />
+interval: 0</p>
+</td><td><p>An error is thrown</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name='toc_3'></a>
+<h1 class='doclevel'>3.Test Suite : cvir3308_BBT</h1>
+<a name="toc_tc23877"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-10: ECP_TestValid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">cvir3308</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga o plata pentru care valoarea achitata este mai mare decat 0</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1. valoare achitata &gt; 0</p>
+
+<p>2. Restul campurilor sunt valide</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23879"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-11: ECP_TestInvalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">cvir3308</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga o plata pentru care valoarea achitata este egala sau mai mica decat 0</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1. valoare plata &lt;= 0</p>
+
+<p>2. Restul campurilor sunt corecte</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23881"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-12: BVA_TestValid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">cvir3308</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga o plata pentru care numarul mesei este 1</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1. masa = 1</p>
+
+<p>2. Restul campurilor sunt valide</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23883"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-13: BVA_TestInvalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">cvir3308</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga o plata pentru care numarul mesei este 0</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1. masa = 0</p>
+
+<p>2. Restul campurilor sunt valide</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name='toc_4'></a>
+<h1 class='doclevel'>4.Test Suite : cair3311_BBT</h1>
+<div><p><strong>F01. Crearea unui task nou, incluz&acirc;nd următoarele detalii:</strong></p>
+
+<ul>
+	<li>
+	<p>descrierea task-ului,</p>
+	</li>
+	<li>
+	<p>data și ora de &icirc;nceput (format: YYYY-MM-DD HH:mm),</p>
+	</li>
+	<li>
+	<p>data și ora de finalizare (format: YYYY-MM-DD HH:mm).</p>
+	</li>
+</ul>
+
+<p>Opțional, se poate configura repetarea task-ului, specific&acirc;nd intervalul de repetare &icirc;n ore și minute.<br />
+De asemenea, task-ul poate fi marcat ca <em>activ</em> sau <em>inactiv</em> prin intermediul unui checkbox.</p>
+</div><a name="toc_tc23909"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-14: ECP_TestValid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">alexandra.cojocariu</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Crearea unui task nou valid avand titlul de tip String.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><table border="1" cellspacing="0" style="width:325pt">
+	<tbody>
+		<tr>
+			<td style="height:14.4pt; vertical-align:bottom; white-space:nowrap; width:62pt">&quot;Task01&quot;</td>
+			<td style="height:14.4pt; vertical-align:bottom; white-space:nowrap; width:138pt">01.03.2024</td>
+			<td style="height:14.4pt; vertical-align:bottom; white-space:nowrap; width:55pt">24.03.2024</td>
+			<td style="height:14.4pt; vertical-align:bottom; white-space:nowrap; width:70pt">2</td>
+		</tr>
+	</tbody>
+</table>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">cair3311_F01:  Adaugare Task [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23937"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-23: ECP_TestInvalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">alexandra.cojocariu</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Crearea unui task caare are intervalul INVALID.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Interval &gt;=1&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23939"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-24: BVA_TestValid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">alexandra.cojocariu</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Crearea unui task care are Start Date-ul valid si de tip Date.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Start Date &gt;= 1950-01-01</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23941"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-25: BVA_TestInvalid&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">alexandra.cojocariu</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Crearea unui task cu intervalul invalid.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Interval is NULL, Intervalul trebuie sa fie INTEGER si &gt;=1.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name='toc_5'></a>
+<h1 class='doclevel'>5.Test Suite : cgir3317_BBT</h1>
+<div><p>Se testeaza adaugarea de piese/produse</p>
+</div><a name="toc_tc23915"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-15: ECP-Valid_Test_Case&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">cgir3317</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga o parte&nbsp;cu numarul de inventar mai mare sau egal cu numarul minim, si mai mic sau egal cu numarul maxim</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><pre>
+inStock &isin; [min, max]</pre>
+
+<p>Restul campurilor sunt valide.</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Se adauga o parte.</p>
+
+<p>name = &quot;Parte&quot;</p>
+
+<p>price = 200.0</p>
+
+<p>inStock = 100</p>
+
+<p>min = 50</p>
+
+<p>max = 200</p>
+
+<p>companyName= &quot;Companie&quot;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</td><td><p>Partea este adaugata cu succes.&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3">0.50</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">cgir3317_F01:  AdaugarePiesa [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23920"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-16: ECP-Invalid_Test_Case&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">cgir3317</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga o parte cu numarul de inventar mai mic strict decat&nbsp;numarul minim.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>inStock &isin; (-inf&nbsp;, min)</p>
+
+<p>Restul campurilor sunt valide</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Se adauga o parte.</p>
+
+<p>name = &quot;Parte&quot;</p>
+
+<p>price = 200.0</p>
+
+<p>inStock = 30</p>
+
+<p>min = 50</p>
+
+<p>max = 200</p>
+
+<p>companyName= &quot;Companie&quot;</p>
+</td><td><p>Partea nu este adaugata.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3">0.50</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">cgir3317_F01:  AdaugarePiesa [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23925"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-18: BVA-Valid_Test_Case&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">cgir3317</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga o piesa cu numarul de inventar egal cu numarul maxim.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>inStock = max</p>
+
+<p>Restul campurilor sunt valide.</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Se adauga o parte.</p>
+
+<p>name = &quot;Parte&quot;</p>
+
+<p>price = 200.0</p>
+
+<p>inStock = 200</p>
+
+<p>min = 50</p>
+
+<p>max = 200</p>
+
+<p>companyName= &quot;Companie&quot;</p>
+</td><td><p>Partea este adaugata cu succes.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3">0.50</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">cgir3317_F01:  AdaugarePiesa [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23930"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-20: BVA-Invalid_Test_Case&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">cgir3317</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Se adauga o parte&nbsp;cu numarul de inventar mai mare decat maxim cu o unitate.<br />
+&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>inStock&nbsp; = max + 1<br />
+Restul campurilor sunt valide.</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Se adauga o parte.</p>
+
+<p>name = &quot;Parte&quot;</p>
+
+<p>price = 200.0</p>
+
+<p>inStock = 201</p>
+
+<p>min = 50</p>
+
+<p>max = 200</p>
+
+<p>companyName= &quot;Companie&quot;</p>
+</td><td><p>Nu se adauga partea.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3">0.50</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" ></td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">cgir3317_F01:  AdaugarePiesa [Version : 1]<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name='toc_6'></a>
+<h1 class='doclevel'>6.Test Suite : ceir3320_BBT</h1>
+<div><p>Se testeaza adaugarea unui task.</p>
+</div><a name="toc_tc23923"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-17: ECP_ValidTest&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ceir3320</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p><strong>Input:</strong></p>
+
+<ul>
+	<li>
+	<p>Titlu: &quot;Meeting&quot; (sir de caractere valid)</p>
+	</li>
+	<li>
+	<p>Data și ora de &icirc;nceput: 25.03.2025, 10:00 (data si ora&nbsp;valide)</p>
+	</li>
+	<li>
+	<p>Stare: Activ (valoare valida)</p>
+	</li>
+	<li>
+	<p>Repetitiv: Nu</p>
+	</li>
+</ul>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>formatul datei trebuie sa fie corect</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >TestAddTask</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addValidTaskEcp</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23928"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-19: ECP_InvalidTest&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ceir3320</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p><strong>Input:</strong></p>
+
+<ul>
+	<li>
+	<p>Titlu: &quot;&quot; (șir gol)</p>
+	</li>
+	<li>
+	<p>Data și ora de &icirc;nceput: 25.03.2025, 10:00</p>
+	</li>
+	<li>
+	<p>Stare: Activ</p>
+	</li>
+	<li>
+	<p>Repetitiv: Nu</p>
+	</li>
+</ul>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Sistemul trebuie sa&nbsp;valideze ca&nbsp;titlul nu este gol inainte de a salva task-ul.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >TestAddTask</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addInvalidTaskEcp</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23933"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-21: BVA_ValidTest&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ceir3320</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p><strong>Input:</strong></p>
+
+<ul>
+	<li>
+	<p>Data si ora de &icirc;nceput: 01.01.2025, 00:00 (limita inferioară validă)</p>
+	</li>
+	<li>
+	<p>Data si ora de sfarsit: 01.01.2025, 00:01 (cea mai mică durată validă)</p>
+	</li>
+</ul>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><ul>
+	<li>
+	<p>Data de inceput si data de sfarsit trebuie sa&nbsp;fie &icirc;ntr-un interval valid definit de sistem</p>
+	</li>
+	<li>
+	<p>Formatul datelor trebuie sa&nbsp;fie corect.</p>
+	</li>
+</ul>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >TestAddTask</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addTaskValidBva</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc23935"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case Prj232-22: BVA_InvalidTest&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">ceir3320</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p><strong>Input:</strong></p>
+
+<ul>
+	<li>
+	<p>Data și ora de &icirc;nceput: 01.01.2025, 00:00</p>
+	</li>
+	<li>
+	<p>Data și ora de sf&acirc;rșit: 31.12.2024, 23:59 (valori la limita, dar intr-un interval invalid &ndash; sfarsitul este inainte de inceput)</p>
+	</li>
+</ul>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><ul>
+	<li>
+	<p>Formatul datelor trebuie sa&nbsp;fie corect</p>
+	</li>
+</ul>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Automated</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > name of the autotest class:</td><td  colspan = "3" >TestAddTask</td></tr>
+<tr><td > name of the test method:</td><td  colspan = "3" >addTaskInvalidBva</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
