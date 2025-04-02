@@ -1,0 +1,105 @@
+2025-02-22 16:46:00 INFO  Main:35 - saved data reading
+2025-02-22 16:46:00 INFO  Main:40 - application start
+2025-02-22 16:46:00 INFO  Controller:74 - Main controller initializing
+2025-02-22 16:46:09 INFO  NewEditController:89 - new/edit window initializing
+2025-02-22 16:46:36 INFO  NewEditController:89 - new/edit window initializing
+2025-02-22 16:47:33 INFO  NewEditController:89 - new/edit window initializing
+2025-03-24 20:00:12 INFO  Main:35 - saved data reading
+2025-03-24 20:00:12 INFO  Main:40 - application start
+2025-03-24 20:00:12 INFO  Controller:74 - Main controller initializing
+2025-03-24 20:00:23 INFO  TaskInfoController:24 - task info window initializing
+2025-03-24 20:00:23 ERROR Controller:127 - error loading task-info.fxml
+2025-03-24 20:00:32 INFO  NewEditController:89 - new/edit window initializing
+2025-03-24 20:04:49 INFO  NewEditController:89 - new/edit window initializing
+2025-03-24 21:03:49 INFO  Main:35 - saved data reading
+2025-03-24 21:03:49 INFO  Main:40 - application start
+2025-03-24 21:03:50 INFO  Controller:74 - Main controller initializing
+2025-03-24 21:03:52 INFO  NewEditController:89 - new/edit window initializing
+2025-03-25 12:24:02 INFO  Main:50 - saved data reading
+2025-03-25 12:24:02 INFO  Main:55 - application start
+2025-03-25 12:24:03 INFO  Controller:74 - Main controller initializing
+2025-03-25 12:24:06 INFO  TaskInfoController:24 - task info window initializing
+2025-03-25 12:24:06 ERROR Controller:127 - error loading task-info.fxml
+2025-03-25 12:24:07 INFO  TaskInfoController:24 - task info window initializing
+2025-03-25 12:24:07 ERROR Controller:127 - error loading task-info.fxml
+2025-03-25 12:24:08 INFO  NewEditController:91 - new/edit window initializing
+2025-03-25 12:24:29 INFO  Main:50 - saved data reading
+2025-03-25 12:24:29 INFO  Main:55 - application start
+2025-03-25 12:24:29 INFO  Controller:74 - Main controller initializing
+2025-03-25 12:24:31 INFO  NewEditController:91 - new/edit window initializing
+2025-03-25 12:24:36 INFO  NewEditController:202 - Task{title='A', time=Tue Mar 25 08:00:00 EET 2025, start=Tue Mar 25 08:00:00 EET 2025, end=Wed Mar 26 10:00:00 EET 2025, interval=1800, active=false}
+2025-03-25 12:34:11 ERROR Task:47 - title is empty
+2025-03-25 12:34:11 ERROR Task:51 - time below bound
+2025-03-25 12:34:11 ERROR Task:51 - time below bound
+2025-03-25 12:34:11 ERROR Task:55 - interval < than 1
+2025-03-25 12:38:32 ERROR Task:51 - time below bound
+2025-03-25 12:38:32 ERROR Task:51 - time below bound
+2025-03-25 12:38:32 ERROR Task:51 - time below bound
+2025-03-25 12:38:32 ERROR Task:51 - time below bound
+2025-03-25 12:38:32 ERROR Task:51 - time below bound
+2025-03-25 12:38:32 ERROR Task:51 - time below bound
+2025-03-25 12:38:32 ERROR Task:51 - time below bound
+2025-03-25 12:38:32 ERROR Task:47 - title is empty
+2025-03-25 12:38:32 ERROR Task:51 - time below bound
+2025-03-25 12:38:32 ERROR Task:51 - time below bound
+2025-03-25 12:38:32 ERROR Task:55 - interval < than 1
+2025-03-25 12:38:32 ERROR Task:55 - interval < than 1
+2025-03-25 12:55:44 ERROR Task:51 - time below bound
+2025-03-25 12:55:44 ERROR Task:51 - time below bound
+2025-03-25 12:55:44 ERROR Task:51 - time below bound
+2025-03-25 12:55:44 ERROR Task:51 - time below bound
+2025-03-25 12:55:44 ERROR Task:51 - time below bound
+2025-03-25 12:55:44 ERROR Task:51 - time below bound
+2025-03-25 12:55:44 ERROR Task:51 - time below bound
+2025-03-25 12:55:44 ERROR Task:47 - title is empty
+2025-03-25 12:55:44 ERROR Task:51 - time below bound
+2025-03-25 12:55:44 ERROR Task:51 - time below bound
+2025-03-25 12:55:44 ERROR Task:55 - interval < than 1
+2025-03-25 12:55:44 ERROR Task:55 - interval < than 1
+2025-03-25 12:57:18 ERROR Task:51 - time below bound
+2025-03-25 12:57:18 ERROR Task:51 - time below bound
+2025-03-25 12:57:18 ERROR Task:51 - time below bound
+2025-03-25 12:57:18 ERROR Task:51 - time below bound
+2025-03-25 12:57:18 ERROR Task:51 - time below bound
+2025-03-25 12:57:18 ERROR Task:51 - time below bound
+2025-03-25 12:57:18 ERROR Task:51 - time below bound
+2025-03-25 12:57:18 ERROR Task:47 - title is empty
+2025-03-25 12:57:18 ERROR Task:51 - time below bound
+2025-03-25 12:57:18 ERROR Task:51 - time below bound
+2025-03-25 12:57:18 ERROR Task:55 - interval < than 1
+2025-03-25 12:57:18 ERROR Task:55 - interval < than 1
+2025-03-25 12:59:29 ERROR Task:51 - time below bound
+2025-03-25 12:59:29 ERROR Task:51 - time below bound
+2025-03-25 12:59:29 ERROR Task:51 - time below bound
+2025-03-25 12:59:29 ERROR Task:51 - time below bound
+2025-03-25 12:59:29 ERROR Task:51 - time below bound
+2025-03-25 12:59:29 ERROR Task:51 - time below bound
+2025-03-25 12:59:29 ERROR Task:51 - time below bound
+2025-03-25 12:59:29 ERROR Task:47 - title is empty
+2025-03-25 12:59:29 ERROR Task:51 - time below bound
+2025-03-25 12:59:29 ERROR Task:55 - interval < than 1
+2025-03-25 12:59:29 ERROR Task:55 - interval < than 1
+2025-03-25 12:59:29 ERROR Task:51 - time below bound
+2025-03-25 13:02:46 ERROR Task:55 - interval < than 1
+2025-03-25 13:02:46 ERROR Task:55 - interval < than 1
+2025-03-25 13:02:46 ERROR Task:51 - time below bound
+2025-03-25 13:02:46 ERROR Task:51 - time below bound
+2025-03-25 13:02:46 ERROR Task:47 - title is empty
+2025-03-25 13:02:46 ERROR Task:51 - time below bound
+2025-03-25 13:02:46 ERROR Task:51 - time below bound
+2025-03-25 13:02:46 ERROR Task:55 - interval < than 1
+2025-03-25 13:02:47 ERROR Task:55 - interval < than 1
+2025-03-25 13:02:47 ERROR Task:55 - interval < than 1
+2025-03-25 13:02:47 ERROR Task:51 - time below bound
+2025-03-25 13:02:47 ERROR Task:51 - time below bound
+2025-03-25 13:02:47 ERROR Task:47 - title is empty
+2025-03-25 13:02:47 ERROR Task:51 - time below bound
+2025-03-25 13:02:47 ERROR Task:51 - time below bound
+2025-03-25 13:02:47 ERROR Task:55 - interval < than 1
+2025-03-25 13:05:04 ERROR Task:55 - interval < than 1
+2025-03-25 13:05:04 ERROR Task:47 - title is empty
+2025-03-25 13:05:04 ERROR Task:55 - interval < than 1
+2025-03-25 13:06:51 ERROR Task:55 - interval < than 1
+2025-03-25 13:06:51 ERROR Task:47 - title is empty
+2025-03-25 13:06:51 ERROR Task:51 - time below bound
+2025-03-25 13:06:51 ERROR Task:55 - interval < than 1
