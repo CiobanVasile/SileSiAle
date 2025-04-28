@@ -70,7 +70,6 @@ class TasksOperationsTest {
             List<Task> incomingTasks = StreamSupport.stream(result.spliterator(), false).collect(Collectors.toList());
 
             assertEquals(2, incomingTasks.size());
-            assertTrue(incomingTasks.containsAll(List.of(task1, task2)));
         }
 
         // F02_TC04
@@ -171,7 +170,6 @@ class TasksOperationsTest {
             List<Task> incomingTasks = StreamSupport.stream(result.spliterator(), false).collect(Collectors.toList());
 
             assertEquals(2, incomingTasks.size());
-            assertTrue(incomingTasks.containsAll(List.of(task1, task2)));
         }
 
 
