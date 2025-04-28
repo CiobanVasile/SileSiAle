@@ -110,10 +110,14 @@
         <artifactId>maven-resources-plugin</artifactId>
         <version>3.0.2</version>
       </plugin>
-      <plugin>
-  <artifactId>maven-compiler-plugin</artifactId>
-  <version>3.10.1</version>
-</plugin>
+<plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version> <!-- aici punem 3.8.0 -->
+        <configuration>
+          <source>1.8</source>   <!-- Java 8 -->
+          <target>1.8</target>   <!-- Java 8 -->
+        </configuration>
+      </plugin>
 
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
