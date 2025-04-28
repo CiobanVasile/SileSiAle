@@ -175,7 +175,7 @@ class TasksOperationsTest {
         }
 
 
-        private static Date createDate(int year, int month, int day, int hour, int minute) {
+        private Date createDate(int year, int month, int day, int hour, int minute) {
             Calendar cal = Calendar.getInstance();
             cal.set(year, month - 1, day, hour, minute);
             return cal.getTime();
