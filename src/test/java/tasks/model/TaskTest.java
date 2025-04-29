@@ -33,4 +33,19 @@ class TaskTest {
     @AfterEach
     void tearDown() {
     }
+
+    @Test
+    void testOneTimeTask() throws ParseException {
+        assert task.getTitle() == "new task2";
+        System.out.println(task.getFormattedDateStart());
+        System.out.println(task.getDateFormat().format(Task.getDateFormat().parse("2023-02-12 10:10")));
+        assert task.getFormattedDateStart().equals(task.getDateFormat().format(Task.getDateFormat().parse("2023-02-12 10:10")));
+    }
+    @Test
+    void testAddTask_Valid() throws ParseException {
+        assert task.getTitle() == "new task3";
+        System.out.println(task.getFormattedDateStart());
+        System.out.println(task.getDateFormat().format(Task.getDateFormat().parse("2023-02-12 10:10")));
+        assert task.getFormattedDateStart().equals(task.getDateFormat().format(Task.getDateFormat().parse("2023-02-12 10:10")));
+    }
 }
